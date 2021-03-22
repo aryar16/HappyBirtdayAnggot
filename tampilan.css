@@ -1,0 +1,438 @@
+html, body, section
+{
+    position: relative;
+    height: 100%;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+#home
+{
+    background-image: url("gambar/ANGGII.png" );
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tengah
+{
+    top: 30%;
+    left: 15%; 
+    right: 15%; 
+    position: absolute; 
+    text-align: center; 
+}
+
+/*.tengah h1
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #00FFFF;
+}*/
+
+.tengah p a
+{
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 19px;
+    color:rgb(47, 0, 255);
+    font-family: Baskerville Old Face;
+}
+
+.tengah p a:hover {
+    background-color: white;
+    transition-duration: 1s;
+}
+
+.tengah a
+{
+    display: block;
+    color: steelblue;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 6px;
+    font-family: Baskerville Old Face;
+    
+}
+
+.tengah a:hover
+{
+    background-color: whitesmoke;
+    transition-duration: 1s;
+    opacity: 0.8;
+}
+
+h2
+{
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    font-family: Baskerville Old Face;
+}
+
+h2, h3, h4, h5, h6
+{
+    margin-bottom: 20px;
+}
+
+#foto
+{
+    background-color:#59dcf65d;
+    padding-bottom: 2300px;
+    color: black;
+    
+}
+
+.gambarBanner img {
+
+    width: 200px;
+    height: 200px;
+}
+
+.gambarBanner .satu{
+        margin-right: 1000px;
+}
+
+.gambarBanner .dua{
+    margin-top: -1000px;
+    margin-left: -500px;
+}
+
+.gambarBanner .tiga {
+    margin-top: -1000px;
+    margin-left: -50px;
+}
+
+.gambarBanner .empat {
+    margin-top: -1000px;
+    margin-left: 400px;
+}
+
+.gambarBanner .lima {
+    margin-top: -1000px;
+    margin-left: 850px;
+}
+
+.gambarBanner .enam {
+    margin-right: 1000px;
+    margin-top: -40px;
+    
+}
+
+.gambarBanner .tujuh {
+    margin-right: 500px;
+    margin-top: -300px;
+}
+
+.gambarBanner .delapan {
+    margin-right: 50px;
+    margin-top: -300px;
+}
+
+.gambarBanner .sembilan {
+    margin-top: -300px;
+    margin-left: 400px;
+}
+
+.gambarBanner .sepuluh {
+    margin-top: -300px;
+    margin-left: 850px;
+}
+
+.gambarBanner .sebelas {
+    margin-right: 1000px;
+    margin-top: -35px;
+}
+
+.gambarBanner .duabelas {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .tigabelas {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .empatbelas {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .limabelas {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .enambelas {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .tujuhbelas {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .delapanbelas {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .sebilanbelas {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .duapuluh {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .duasatu {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .duadua {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .duatiga {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .duaempat {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .dualima {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .duaenam {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .duatujuh {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .duadelapan {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .duasembilan {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .tigapuluh {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .tigasatu {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .tigadua {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .tigatiga {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .tigaempat {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .tigalima {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .tigaenam {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .tigatujuh {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .tigadelapan {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .tigasembilan {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .empatpuluh {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .empatsatu {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .empatdua {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .empattiga {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .empatlima {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .empatenam {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .empattujuh {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .empatdelapan {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .empatsembilan {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .limapuluh {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .limasatu {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .limadua {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .limatiga {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .limaempat {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .limalima {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .limaenam {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .limatujuh {
+    margin-right: 1000px;
+    margin-top: -40px;
+}
+
+.gambarBanner .limadelapan {
+    margin-right: 500px;
+    margin-top: -185px;
+}
+
+.gambarBanner .limasembilan {
+    margin-right: 50px;
+    margin-top: -185px;
+}
+
+.gambarBanner .enampuluh {
+    margin-right: -400px;
+    margin-top: -185px;
+} 
+
+.gambarBanner .enamsatu {
+    margin-right: -850px;
+    margin-top: -185px;
+} 
+
+#video
+{
+    background-color: Gray;
+    color: black;
+    padding: 100px;
+    
+}
+
+
+.gambarBanner1 .q {
+    margin-left: -30px;
+    margin-top: 60px;
+}
+
+.gambarBanner1 .w {
+    margin-left: 200px;
+}
+
+.gambarBanner1 .T {
+    margin-left: 200px;
+}
+
+.tulisan {
+    margin-top: 80px;
+    font-size: 60px;
+    font-family: Rosewood Std Regular;
+    color: blue;
+}
+
+.tulisan .P {
+    margin-right: 900px;
+}
+
+.tulisan .L {
+    margin-left: -490px;
+}
+
+.tulisan .A {
+    margin-left: -90px;
+}
+
+.tulisan .K {
+    margin-top: -10px;
+    margin-left: 350px;
+}
